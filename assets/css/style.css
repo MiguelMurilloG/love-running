@@ -17,7 +17,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -25,14 +25,14 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 250%;
-    margin-left: 2%;
+    font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 4px;
 }
 #menu, #logo {
@@ -74,9 +74,10 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center;
+    background: url(../images/hero-image.webp) no-repeat center center;
 
     /* animates zoom effect on loading page*/
+
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
@@ -96,7 +97,7 @@ animation-fill-mode: forwards;
 }
 
 #cover-text {
-    font-size: 110%;
+    font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -118,17 +119,15 @@ animation-fill-mode: forwards;
 /* club ethos */
 
 #club-ethos {
-  height: 600px;   
+    height: 600px;
 }
 
-#left-about {
+#left-about{
     padding-top: 30px;
     width: 33%;
     float: left;
     background-color: blue;
-
 }
-
 #right-about {
     padding-top: 30px;
     width: 33%;
@@ -136,7 +135,7 @@ animation-fill-mode: forwards;
     background-color: silver;
 }
 
-#center-about {
+#center-about{
     width: 33%;
     margin: 0 auto;
     background-color: green;
